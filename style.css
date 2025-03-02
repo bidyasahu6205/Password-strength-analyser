@@ -1,0 +1,33 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0077b6, #00b4d8);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* Centering the Form */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+/* it styles the enter the password statement*/
+#define_input{
+    font-size:large;
+    font-style: oblique;
+    color: white;
+}
+/* it styles the form box*/
+#box {
+    background: rgb(84, 86, 87);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
